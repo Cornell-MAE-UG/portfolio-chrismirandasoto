@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV](/assets/ChristopherMirandaSoto.pdf) in PDF format.
+[Download my CV](/assets/ChristopherMirandaSotoResume.pdf) in PDF format.
 
 
 **Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
