@@ -10,7 +10,7 @@ technologies: [Autodesk Fusion, MATLAB, Ansys]
 In this project for my MAE 3270 Materials class, I was tasked with using beam theory analysis and FEM to select the dimensions 
 and material of a torque wrench to meet a set of design constraints. 
 
--The wrench must sustain a fully reversed torque of T = ±600 in-lbf for 106 cycles. 
+-The wrench must sustain a fully reversed torque of T = ±600 in-lbf for 10e6 cycles. 
 
 -Attain at least 1.0 mV/V output at the rated torque of 600 in-lbf.
 
