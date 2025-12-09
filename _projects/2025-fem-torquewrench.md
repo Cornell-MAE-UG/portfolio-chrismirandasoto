@@ -94,7 +94,7 @@ Fatigue FoS constraint: PASS (5.12 ≥ 1.5)
 Output voltage constraint: PASS (1.21 ≥ 1 mV/V)
 
 
-For my design, we selected Ti-6Al-4V because its high yield strength allows the wrench to avoid permanent deformation and failure 
+For the design, I selected Ti-6Al-4V because its high yield strength allows the wrench to avoid permanent deformation and failure 
 under peak torque while its elastic modulus is relatively low so that it can be slightly flexible and allow higher-sensitivity strain-gauge 
 measurement. The material also offers strong fatigue resistance to support several loading cycles and high fracture toughness to slow crack 
 growth from small flaws. 
@@ -111,11 +111,11 @@ After I had checked that all constraints were fulfilled, I created my design in 
 
 /assets/images/mae3270pic4.png
 
-For the FEM model, we first applied the displacement condition (Yellow) on the drive, telling the software that it does not move. We set the displacement to (0, 0, 0). Then we applied the force at the edge of the beam (red face) with a force of 37.5 lbf in the y direction, which allowed the software to determine the bending of the beam. 
+For the FEM model, I first applied the displacement condition (Yellow) on the drive, telling the software that it does not move. We set the displacement to (0, 0, 0). Then we applied the force at the edge of the beam (red face) with a force of 37.5 lbf in the y direction, which allowed the software to determine the bending of the beam. 
 
 /assets/images/mae3270pic5.png
 
-Next, we defined to the software what kind of material we were using by giving it the Young’s modulus and the Poisson's ratio. Giving the software the necessary components to calculate the displacement, stress, and strain of the beam.
+Next, I defined to the software what kind of material was being used by giving it the Young’s modulus and the Poisson's ratio. Giving the software the necessary components to calculate the displacement, stress, and strain of the beam.
 
 /assets/images/mae3270pic6.png
 
@@ -151,7 +151,8 @@ Based on the FEM strain gauge strain of 0.0011366 and the hand calculations, the
 which meets the minimum sensitivity requirement of 0.001 mV/V.
 
 Strain Gauge Selection
-From the DwyerOmega catalog, we found that gauge “SGD-3/120-LY11” works best with our design. The type is 
+
+From the DwyerOmega catalog, I found that gauge “SGD-3/120-LY11” works best for the design. The type is 
 described as “3 mm Grid Length, 1.5 mm Grid Width 120 Î© Resistance, ST STC Number”. Since we want a gauge on both 
 sides of the wrench where tension and compression are happening, we need the gauge length to be less than the wrench length
 and the gauge width to be less than the wrench thickness. The carrier length of 7.8mm is significantly smaller than
