@@ -53,10 +53,6 @@ footer {
   font-size: 0.9em;
 }
 
-.container {
-  max-width: 600px;
-}
-
 .container > * {
   margin: 15px;
 }
@@ -184,11 +180,6 @@ footer {
   transform: scale(1.05); 
 }
 
-.project-image {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .back-arrow {
   display: inline-block;
   font-size: 1.1em;
@@ -203,5 +194,27 @@ footer {
   color: #3a3f58; 
   transform: translateX(-4px);
 }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.highlight {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.project-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 
 
