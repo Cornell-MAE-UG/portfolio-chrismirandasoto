@@ -8,67 +8,59 @@ permalink: /cv/
 [Download my CV](/assets/ChristopherMirandaSotoResume.pdf) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [cm2233@cornell.edu](mailto:cm2233@cornell.edu) | | | **Phone:** +1 623-262-6096
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring engineering student with a strong foundation in engineering modeling, design, and sustainability, passionate about innovation aimed towards helping others and eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  *Bachelor of Science in Mechanical Engineering*  
+  GPA: 3.87/4.0 | Graduation: December, 2026
 
-- **[High School Name]**  
+- **[Millenium High School]**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [May, 2023]
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
+- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS
 - **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
-
----
-
-#### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **Tools:** N/A 
 
 ---
 
 #### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
+- **Air Products & Chemicals - Intern**  
+  [June, 2025] - [August, 2025]  
+  	-Performed data validation and labor rate calculations by analyzing plot plans and integrating contractor inputs into ASPEN software to support
+    precise cost modeling.
+   -Spearheaded a self-directed project to build and enhance Excel-based tools for tracking historical cost estimates against contractor bids,            improving the accuracy and efficiency of future cost forecasting. 
+   -Developed applied knowledge of thermodynamic cycles and heat integration in large-scale gas processing systems through engagement in technical        reviews and engineering presentations.  
+
 
 ---
 
 #### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- [OSHA 10], [West-MEC], [2022]  
+- [Hispanic Scholarship Fund Scholar], [Youth Leadership Institute], [2022]
+- [Church at Litchfield Park Scholarship Recipient], [2023]
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Leader of [CRU Cornell Praise Team]
+- Leader of [Ignite Upstate NY Worship Night]
+- Member of [AguaClara Cornell Engineering Project Team]
+- Member of [Cornell Salsa Pa'lante]
+- Member of [Cornell Mariachi]
+- Member of [Cornell Society of Hispanic Engineers]
+- Volunteer for [Second Wind Shelters for Homeless]  
 
 ---
 
-#### References
-Available upon request.
-
----
