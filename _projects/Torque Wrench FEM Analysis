@@ -1,5 +1,7 @@
-(Same code overall but with the following values and results; The values were taken by taking the average of the range of values for the material from Granta.)
-*Note: Our wrench is oriented along x-axis instead of z-axis in baseline design.
+In this project for my MAE 3270 Materials class, I was tasked with using beam theory analysis and FEA to select the dimensions 
+and material of a torque wrench to meet a set of design constraints. I began with doing hand calculations to relate parameters to the constraints 
+and then created a MATLAB script to check my design iterations. The final code is as listed below:
+
 M = 600; % max torque (in-lbf)
 L = 16; % length from drive to where load applied (inches)
 h = .6; % width
@@ -11,7 +13,49 @@ su = (114+130)/2*10^3; % tensile strength use yield or ultimate depending on mat
 KIC = (94.2+104)/2*10^3; % fracture toughness (psi sqrt(in))
 sfatigue = (88.9+116)/2*10^3; % fatigue strength from Granta for 10^6 cycles
 name = 'Titanium, alpha-beta alloy, Ti-6Al-4V, cast'; % material name
-Results: 
+%bend stress
+bendstress = 6*M/(b*h^2);  
+fprintf('Max normal stress = %.2f ksi\n', bendstress/1000)
+%strain
+strain = bendstress / E;             
+strain_micro = strain * 1e6;% microstrain
+fprintf('Strain at gauge = %.0f microstrain\n', strain_micro)
+%deflection
+deflection = (4*M*L^2)/(E*b*h^3);
+fprintf('Load point deflection = %.4f in\n', deflection)
+%factors of safety
+SF_strength = su / (bendstress);
+if SF_strength >= 4
+   fprintf('Yield/Brittle FoS constraint: PASS (%.2f ≥ 4)\n', SF_strength);
+else
+   fprintf('Yield/Brittle FoS constraint: FAIL (%.2f < 4)\n', SF_strength);
+end
+a = 0.04;
+ki = 1.12*bendstress*sqrt(pi*a);
+SF_crack = KIC / (ki);
+if SF_crack >= 2
+   fprintf('Crack Growth FoS constraint: PASS (%.2f ≥ 2)\n', SF_crack);
+else
+   fprintf('Crack Growth FoS constraint: FAIL (%.2f < 2)\n', SF_crack);
+end
+SF_fatigue = sfatigue / (bendstress);
+if SF_fatigue >= 1.5
+   fprintf('Fatigue FoS constraint: PASS (%.2f ≥ 1.5)\n', SF_fatigue);
+else
+   fprintf('Fatigue FoS constraint: FAIL (%.2f < 1.5)\n', SF_fatigue);
+end
+%voltage output
+k = 2.0;   
+Vratio = (k * strain)/2;      % V/V
+Vout_mV = Vratio*1000;          % mV/V
+if Vout_mV >= 1
+   fprintf('Output voltage constraint: PASS (%.2f ≥ 1 mV/V)\n', Vout_mV);
+else
+   fprintf('Output voltage constraint: FAIL (%.2f < 1 mV/V)\n', Vout_mV);
+end
+
+The results for my design are below: 
+
 Max normal stress = 20.00 ksi
 Strain at gauge = 1212 microstrain
 Load point deflection = 0.3448 in
@@ -20,10 +64,11 @@ Crack Growth FoS constraint: PASS (12.48 ≥ 2)
 Fatigue FoS constraint: PASS (5.12 ≥ 1.5)
 Output voltage constraint: PASS (1.21 ≥ 1 mV/V)
 
+After, I had checked that all constraints were fulfilled, I created my design in Fusion.
 
 
 
-1. Image(s) of CAD model. Must show all key dimensions.
+
 
 
 2. Describe material used and its relevant mechanical properties.
