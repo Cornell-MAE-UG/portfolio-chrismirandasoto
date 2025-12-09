@@ -112,8 +112,9 @@ footer {
 
   &-r {
     @extend .inline-image;
-    float: none;
-    margin-right: 0;
+    float: none !important;
+    display: block;
+    margin: 20px auto;        // center
   }
 }
 
