@@ -7,8 +7,17 @@ technologies: [Autodesk Fusion, MATLAB, Ansys]
 
 
 
-In this project for my MAE 3270 Materials class, I was tasked with using beam theory analysis and FEA to select the dimensions 
-and material of a torque wrench to meet a set of design constraints. I began with doing hand calculations to relate parameters to the constraints 
+In this project for my MAE 3270 Materials class, I was tasked with using beam theory analysis and FEM to select the dimensions 
+and material of a torque wrench to meet a set of design constraints. 
+
+-The wrench must sustain a fully reversed torque of T = ±600 in-lbf for 106 cycles. 
+-attain at least 1.0 mV/V output at the rated torque of 600 in-lbf.
+-safety factor of Xo = 4 for yield or brittle failure
+-safety factor of XK = 2 for crack growth from an assumed crack of depth 0.04 inches.
+-fatigue stress safety factor of XS = 1.5.
+-material must be a steel, aluminum or titanium alloy.
+
+I began with doing hand calculations to relate parameters to the constraints 
 and then created a MATLAB script to check my design iterations. The final code is as listed below:
 ```matlab
 M = 600; % max torque (in-lbf)
