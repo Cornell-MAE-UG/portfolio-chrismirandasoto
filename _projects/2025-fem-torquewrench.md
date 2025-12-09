@@ -3,6 +3,7 @@ layout: project
 title: Torque Wrench FEM Analysis
 description: Advanced FEM Project
 technologies: [Autodesk Fusion, MATLAB, Ansys]
+image: /assets/images/mae3270pic9.png
 ---
 
 
