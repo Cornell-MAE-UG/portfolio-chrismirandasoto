@@ -82,9 +82,9 @@ growth from small flaws.
 
 After I had checked that all constraints were fulfilled, I created my design in Fusion.
 
-![Fusion model]({{ "/portfolio-chrismirandasoto/assets/images/mae3270pic1.png" | relative_url }})
+/assets/images/mae3270pic1.png
 
-![Fusion model]({{ "/portfolio-chrismirandasoto/assets/images/mae3270pic2.png" | relative_url }})
+/assets/images/mae3270pic2.png
 
 ![Fusion model]({{ "/portfolio-chrismirandasoto/assets/images/mae3270pic3.png" | relative_url }})
 
