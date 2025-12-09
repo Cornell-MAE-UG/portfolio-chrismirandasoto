@@ -86,44 +86,41 @@ After I had checked that all constraints were fulfilled, I created my design in 
 
 /assets/images/mae3270pic2.png
 
-![Fusion model]({{ "/portfolio-chrismirandasoto/assets/images/mae3270pic3.png" | relative_url }})
+/assets/images/mae3270pic3.png
 
-![Fusion model]({{ "/portfolio-chrismirandasoto/assets/images/mae3270pic4.png" | relative_url }})
-
-![Fusion model]({{ "/portfolio-chrismirandasoto/assets/images/mae3270pic5.png" | relative_url }})
+/assets/images/mae3270pic4.png
 
 For the FEM model, we first applied the displacement condition (Yellow) on the drive, telling the software that it does not move. We set the displacement to (0, 0, 0). Then we applied the force at the edge of the beam (red face) with a force of 37.5 lbf in the y direction, which allowed the software to determine the bending of the beam. 
 
-![description](assets/images/mae3270pic5.png)
+/assets/images/mae3270pic5.png
 
 Next, we defined to the software what kind of material we were using by giving it the Young’s modulus and the Poisson's ratio. Giving the software the necessary components to calculate the displacement, stress, and strain of the beam.
 
-![description](assets/images/mae3270pic6.png)
+/assets/images/mae3270pic6.png
 
 Normal strain contours (in the strain gauge direction) from FEM
 
-![description](assets/images/mae3270pic7.png)
+/assets/images/mae3270pic7.png
 
 
 Contour plot of maximum principal stress from FEM
 
-![description](assets/images/mae3270pic8.png)
+/assets/images/mae3270pic8.png
+
 (Used max stress under clamped boundary line since indicated max is likely artificial)
 
-![description](assets/images/mae3270pic9.png)
-
+/assets/images/mae3270pic9.png
 
 We can see at the base of the drive that the maximum and minimum normal stress occur (indicated max/min stresses at the clamp-handle
 intersection are assumed to be artificial), with the largest magnitude value being 31,727 psi in tension. Using this value gives a safety
 factor against yielding of 3.8 which is slightly lower than the required safety factor against yielding of 4. The hand calculations 
 predicted that the wrench would have a significantly larger factor of safety with the selected material and dimensions based on beam theory.
 
-
-![description](assets/images/mae3270pic10.png)
+/assets/images/mae3270pic10.png
 
 The load point deflection from the FEM is 0.40865in which is only slightly higher than the hand-calculated displacement of 0.3448 in.
 
-![description](assets/images/mae3270pic11.png)
+/assets/images/mae3270pic11.png
 
 The strain at the location of the strain gauge has a magnitude of 1136.6 microstrain or 0.0011366 strain. The hand-calculated strain gauge strain was 1212 microstrain which is very close.
 
