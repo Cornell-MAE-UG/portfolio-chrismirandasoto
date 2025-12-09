@@ -103,7 +103,7 @@ growth from small flaws.
 
 After I had checked that all constraints were fulfilled, I created my design in Fusion.
 
-![Shaded rendering of earlier version]({{ "/assets/images/mae3270pic1.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/mae3270pic1.png" | relative_url }}){: .inline-image-r style="width: 1000px"}
 
 /assets/images/mae3270pic1.png
 
