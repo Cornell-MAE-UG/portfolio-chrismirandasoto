@@ -105,12 +105,13 @@ growth from small flaws.
 After I had checked that all constraints were fulfilled, I created my design in Fusion.
 
 ![Shaded rendering of earlier version]({{ "/assets/images/mae3270pic1.png" | relative_url }}){: .inline-image-r style="width: 2500px"}
-
+<div style="clear: both;"></div>
 ![Shaded rendering of earlier version]({{ "/assets/images/mae3270pic2.png" | relative_url }}){: .inline-image-r style="width: 2500px"}
-
+<div style="clear: both;"></div>
 ![Shaded rendering of earlier version]({{ "/assets/images/mae3270pic3.png" | relative_url }}){: .inline-image-r style="width: 2500px"}
-
+<div style="clear: both;"></div>
 ![Shaded rendering of earlier version]({{ "/assets/images/mae3270pic4.png" | relative_url }}){: .inline-image-r style="width: 2500px"}
+<div style="clear: both;"></div>
 
 For the FEM model, I first applied the displacement condition (Yellow) on the drive, telling the software that it does not move. We set the displacement to (0, 0, 0). Then we applied the force at the edge of the beam (red face) with a force of 37.5 lbf in the y direction, which allowed the software to determine the bending of the beam. 
 
