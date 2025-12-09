@@ -11,7 +11,7 @@ image: /assets/images/mae3270pic1.png
 In this project for my MAE 3270 Materials class, I was tasked with using beam theory analysis and FEA to select the dimensions 
 and material of a torque wrench to meet a set of design constraints. I began with doing hand calculations to relate parameters to the constraints 
 and then created a MATLAB script to check my design iterations. The final code is as listed below:
-
+```matlab
 M = 600; % max torque (in-lbf)
 L = 16; % length from drive to where load applied (inches)
 h = .6; % width
@@ -63,7 +63,7 @@ if Vout_mV >= 1
 else
    fprintf('Output voltage constraint: FAIL (%.2f < 1 mV/V)\n', Vout_mV);
 end
-
+```
 The results for my design are below: 
 
 Max normal stress = 20.00 ksi
