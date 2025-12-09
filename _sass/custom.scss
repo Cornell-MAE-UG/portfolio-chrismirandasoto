@@ -139,6 +139,7 @@ footer {
 }
 
 .gallery-item {
+  height: fit-content;
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
