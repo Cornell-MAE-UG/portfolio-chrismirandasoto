@@ -106,13 +106,13 @@ footer {
 
   &-l {
     @extend .inline-image;
-    float: left;
+    float: none;
     margin-left: 0;
   }
 
   &-r {
     @extend .inline-image;
-    float: right;
+    float: none;
     margin-right: 0;
   }
 }
