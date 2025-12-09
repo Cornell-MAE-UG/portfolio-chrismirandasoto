@@ -80,11 +80,17 @@ end
 The results for my design are below: 
 
 Max normal stress = 20.00 ksi
+
 Strain at gauge = 1212 microstrain
+
 Load point deflection = 0.3448 in
+
 Yield/Brittle FoS constraint: PASS (6.10 ≥ 4)
+
 Crack Growth FoS constraint: PASS (12.48 ≥ 2)
+
 Fatigue FoS constraint: PASS (5.12 ≥ 1.5)
+
 Output voltage constraint: PASS (1.21 ≥ 1 mV/V)
 
 For my design, we selected Ti-6Al-4V because its high yield strength allows the wrench to avoid permanent deformation and failure 
