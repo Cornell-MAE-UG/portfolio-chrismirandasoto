@@ -57,6 +57,10 @@ footer {
   max-width: 600px;
 }
 
+.container > * {
+  margin: 15px;
+}
+
 .project-item img {
   max-width: 100%;
   height: auto;
