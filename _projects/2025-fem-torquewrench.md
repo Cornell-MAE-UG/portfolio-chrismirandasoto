@@ -77,7 +77,7 @@ else
    fprintf('Output voltage constraint: FAIL (%.2f < 1 mV/V)\n', Vout_mV);
 end
 ```
-The results for my design are below: 
+The results for the design are below: 
 
 Max normal stress = 20.00 ksi
 
@@ -93,10 +93,12 @@ Fatigue FoS constraint: PASS (5.12 ≥ 1.5)
 
 Output voltage constraint: PASS (1.21 ≥ 1 mV/V)
 
+
 For my design, we selected Ti-6Al-4V because its high yield strength allows the wrench to avoid permanent deformation and failure 
 under peak torque while its elastic modulus is relatively low so that it can be slightly flexible and allow higher-sensitivity strain-gauge 
 measurement. The material also offers strong fatigue resistance to support several loading cycles and high fracture toughness to slow crack 
 growth from small flaws. 
+
 
 
 After I had checked that all constraints were fulfilled, I created my design in Fusion.
