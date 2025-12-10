@@ -22,7 +22,7 @@ Aspiring engineering student with a strong foundation in engineering modeling, d
   *Bachelor of Science in Mechanical Engineering*  
   GPA: 3.87/4.0 | Graduation: December, 2026
 
-- **[Millenium High School]**  
+- **Millenium High School**  
   *High School Diploma*  
   Graduation: May, 2023
 
@@ -37,7 +37,6 @@ Aspiring engineering student with a strong foundation in engineering modeling, d
 #### Work Experience
 - **Air Products & Chemicals - Intern**  
   June, 2025 - August, 2025
-  
   	-Performed data validation and labor rate calculations by analyzing plot plans and integrating contractor inputs into ASPEN software to support
     precise cost modeling.
   
