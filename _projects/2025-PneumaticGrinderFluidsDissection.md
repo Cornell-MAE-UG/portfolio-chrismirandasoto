@@ -10,6 +10,6 @@ My team was given a pneumatic grinder, which we were able to break down into sev
 of the overall functionality of the device, the individual roles of certain components, a fluid streamline diagram of the device, and the fluids 
 equations and assumptions behind the behavior of the device. The video can be found in the Youtube link below: 
 
-[YouTube](https://youtu.be/FtcVberVn_k)
+[Pneumatic Grinder Fluids Dissection YouTube Link](https://youtu.be/FtcVberVn_k)
 
 
