@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV](/assets/ChristopherMirandaSotoResume.pdf) in PDF format.
+[Download my CV]({{ "/assets/ChristopherMirandaSotoResume.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [cm2233@cornell.edu](mailto:cm2233@cornell.edu) | | | **Phone:** +1 623-262-6096
