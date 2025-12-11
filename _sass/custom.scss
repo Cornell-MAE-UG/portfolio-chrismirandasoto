@@ -92,6 +92,13 @@ footer {
   vertical-align: top;
 }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
 .project-image {
   float: none !important;   // remove any float
   display: block;           // block so it takes full line
