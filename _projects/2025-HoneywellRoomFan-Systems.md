@@ -2,6 +2,7 @@
 layout: project
 title: Honeywell Room Fan Systems Analysis
 description: System Dynamics Project
+technologies: [Desmos]
 image: /assets/images/honeywellblockdiagram.png
 ---
 
