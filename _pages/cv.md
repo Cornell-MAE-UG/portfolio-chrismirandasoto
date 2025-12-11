@@ -29,7 +29,7 @@ Aspiring engineering student with a strong foundation in engineering modeling, d
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS
+- **Software:** Autodesk Fusion 360
 - **Programming:** Python, MATLAB  
 
 ---
