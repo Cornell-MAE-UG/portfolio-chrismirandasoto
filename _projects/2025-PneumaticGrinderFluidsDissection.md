@@ -3,7 +3,7 @@ layout: project
 title: Pneumatic Grinder Fluids Dissection 
 description: Fluids Dissection Video
 technologies: [Youtube]
-image: /assets/images/githubfluidsvidpic.png
+image: /assets/images/githubfluidsvidpic1.png
 ---
 For my MAE3230 Fluid Mechanics class, we were tasked with creating a video dissection of an assigned engineering device that utilizes fluids. 
 My team was given a pneumatic grinder, which we were able to break down into several small components and analyze thoroughly. Our video includes explanations 
