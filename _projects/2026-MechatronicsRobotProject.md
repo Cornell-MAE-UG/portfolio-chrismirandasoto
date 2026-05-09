@@ -2,20 +2,12 @@
 layout: project
 title: Mechatronics Robot Project
 description: Mechatronics Class Project
-image: /assets/images/portfoliohwk3pic.png
+image: /assets/images/mechatronicsrobotpic.jpeg
 ---
 
-For my MAE 3240 Heat Transfer class, we were tasked with completing a homework involving three applicational heat transfer questions. Through
-this assignment, I learned how to use engineering concepts from class such as energy balances, 1-D heat transfer, heat transfer differential 
-equations, conduction and convection, and thermal resistance networks to inform design decisions, model temperature profiles, and solve for 
-important parameters. 
+In my MAE 3780 Mechatronics class, we spent the first half of the class learning how to use breadboards, create circuits to accomplish different purposes, and use Arduinos to expand our engineering capabilities. For the second half, we were given the opportunity to use everything we had learned to use in designing a fully autonomous robot that would face off against others in a cube-gathering competition. 
 
-While working through these problems, I had to translate physical 
-situations into mathematical models by identifying the dominant heat transfer mechanisms,
-applying appropriate assumptions, and applying boundary conditions. Being able to do so
-is extremely valuable to many mechanical engineering applications such as thermal management, 
-energy systems, and product design, and this assignment helped develop 
-my ability to analyze thermal systems using engineering fundamentals.
+Through this project, I learned how to set up complicated circuits, code Arduinos to accomplish difficult tasks, and troubleshoot efficiently. This has by far been one of my favorite projects and I hope to continue to use Arduinos and build circuits in more mechanical/electrical engineering projects in the future!
 
 My finalized work is in the pdf below:
 
