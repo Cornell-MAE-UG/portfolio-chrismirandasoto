@@ -2,6 +2,7 @@
 layout: project
 title: Mechatronics Robot Project
 description: Mechatronics Class Project
+technologies: [Arduino, Breadboard, C++]
 image: /assets/images/mechatronicsrobotpic.jpeg
 ---
 
