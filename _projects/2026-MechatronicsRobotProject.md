@@ -12,5 +12,5 @@ Through this project, I learned how to set up complicated circuits, code Arduino
 
 My finalized work is in the pdf below:
 
-<iframe src="{{ 'assets/images/Homework 3 mae3240.pdf' | relative_url }}" width="100%" height="800px"></iframe>
+<iframe src="{{ 'assets/images/Mechatronics_Competition_Report.pdf' | relative_url }}" width="100%" height="800px"></iframe>
 
